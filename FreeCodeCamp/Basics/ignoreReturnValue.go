@@ -16,4 +16,13 @@ func main(){
 
 	_, lastName2 := getName(); // we can ignore the first return value by using _ (underscore)
 	fmt.Println(lastName2)
+
+	/*
+
+	firstName, lastName := getName();
+	fmt.Println(firstName )
+	
+	This Will give error as LastName is not used
+	
+	*/
 }
