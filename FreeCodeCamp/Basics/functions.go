@@ -18,5 +18,9 @@ func concat3(s1,s2 string) (result string){
 }
 
 func main(){
+	
+	fmt.Println(concat("Hello","World"))
+	fmt.Println(concat2("Hello","World"))
+	fmt.Println(concat3("Hello","World"))
 
 }
