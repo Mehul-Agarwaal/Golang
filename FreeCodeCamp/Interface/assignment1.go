@@ -59,7 +59,8 @@ func getExpenseReport(e expense) (string, float64) {
 	}
 	default:
 		return "Unknown expense", 0.0
-}
+} 
+*/
 
 func main() {
 
